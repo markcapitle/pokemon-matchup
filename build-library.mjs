@@ -1,6 +1,10 @@
 /**
  * Builds pokemon-library.json — the app's own data file.
  *
+ * Data source: PokéAPI (https://pokeapi.co), which is free to use and asks
+ * only that callers cache locally rather than hammer the API — which is
+ * exactly what this script exists to do. Credit it in anything you ship.
+ *
  * Run once (and again when a new game ships):
  *     node build-library.mjs
  *

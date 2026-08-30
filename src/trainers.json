@@ -1,0 +1,834 @@
+{
+  "_readme": [
+    "Main battles only — no route NPCs, no grunts.",
+    "",
+    "NOT CURRENTLY USED BY THE APP. Kept because the verified half is real work",
+    "and the feature may come back. Safe to delete if you don't want it.",
+    "",
+    "Source: teams marked verified:true were checked against Serebii.net's",
+    "Ultra Sun & Ultra Moon grand trial and Elite Four pages. Credit Serebii if",
+    "you ever ship this. Entries marked verified:false were written from memory",
+    "and several have already turned out to be wrong — treat them as guesses.",
+    "",
+    "'team' holds species slugs matching 'name' in pokemon-library.json.",
+    "Alolan forms use the -alola suffix. Levels and moves are deliberately",
+    "absent: the app only reads types.",
+    "",
+    "'role': captain, kahuna, totem, villain, rival, elite-four, boss, challenger.",
+    "",
+    "Nearly every entry covers both Ultra Sun and Ultra Moon. The only",
+    "version-exclusives are four Totems (Verdant Cavern and Hokulani differ).",
+    "",
+    "Hau, Kukui and Gladion have multiple entries because their teams depend on",
+    "which starter you picked."
+  ],
+  "trainers": [
+    {
+      "id": "usum-totem-gumshoos",
+      "games": [
+        "ultra-sun"
+      ],
+      "name": "Totem Gumshoos",
+      "title": "Trial · Verdant Cavern",
+      "role": "totem",
+      "order": 1,
+      "verified": false,
+      "team": [
+        "gumshoos"
+      ]
+    },
+    {
+      "id": "usum-totem-raticate",
+      "games": [
+        "ultra-moon"
+      ],
+      "name": "Totem Alolan Raticate",
+      "title": "Trial · Verdant Cavern",
+      "role": "totem",
+      "order": 1,
+      "verified": false,
+      "team": [
+        "raticate-alola"
+      ]
+    },
+    {
+      "id": "usum-ilima",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Ilima",
+      "title": "Trial Captain · Normal",
+      "role": "captain",
+      "order": 2,
+      "verified": false,
+      "team": [
+        "yungoos",
+        "smeargle"
+      ]
+    },
+    {
+      "id": "usum-hala",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Hala",
+      "title": "Kahuna · Melemele grand trial",
+      "role": "kahuna",
+      "order": 3,
+      "verified": true,
+      "team": [
+        "machop",
+        "makuhita",
+        "crabrawler"
+      ]
+    },
+    {
+      "id": "usum-plumeria-1",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Plumeria",
+      "title": "Team Skull Admin",
+      "role": "villain",
+      "order": 4,
+      "verified": false,
+      "team": [
+        "golbat",
+        "salandit"
+      ]
+    },
+    {
+      "id": "usum-totem-araquanid",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Totem Araquanid",
+      "title": "Trial · Brooklet Hill",
+      "role": "totem",
+      "order": 5,
+      "verified": false,
+      "team": [
+        "araquanid"
+      ]
+    },
+    {
+      "id": "usum-lana",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Lana",
+      "title": "Trial Captain · Water",
+      "role": "captain",
+      "order": 6,
+      "verified": false,
+      "team": [
+        "cloyster",
+        "lanturn",
+        "araquanid"
+      ]
+    },
+    {
+      "id": "usum-totem-marowak",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Totem Alolan Marowak",
+      "title": "Trial · Wela Volcano Park",
+      "role": "totem",
+      "order": 7,
+      "verified": false,
+      "team": [
+        "marowak-alola"
+      ]
+    },
+    {
+      "id": "usum-kiawe",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Kiawe",
+      "title": "Trial Captain · Fire",
+      "role": "captain",
+      "order": 8,
+      "verified": false,
+      "team": [
+        "marowak-alola",
+        "arcanine",
+        "talonflame"
+      ]
+    },
+    {
+      "id": "usum-totem-lurantis",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Totem Lurantis",
+      "title": "Trial · Lush Jungle",
+      "role": "totem",
+      "order": 9,
+      "verified": false,
+      "team": [
+        "lurantis"
+      ]
+    },
+    {
+      "id": "usum-mallow",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Mallow",
+      "title": "Trial Captain · Grass",
+      "role": "captain",
+      "order": 10,
+      "verified": false,
+      "team": [
+        "steenee",
+        "tsareena"
+      ]
+    },
+    {
+      "id": "usum-olivia-trial",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Olivia",
+      "title": "Kahuna · Akala grand trial",
+      "role": "kahuna",
+      "order": 11,
+      "verified": true,
+      "team": [
+        "anorith",
+        "lileep",
+        "lycanroc"
+      ]
+    },
+    {
+      "id": "usum-totem-vikavolt",
+      "games": [
+        "ultra-sun"
+      ],
+      "name": "Totem Vikavolt",
+      "title": "Trial · Hokulani Observatory",
+      "role": "totem",
+      "order": 12,
+      "verified": false,
+      "team": [
+        "vikavolt"
+      ]
+    },
+    {
+      "id": "usum-totem-togedemaru",
+      "games": [
+        "ultra-moon"
+      ],
+      "name": "Totem Togedemaru",
+      "title": "Trial · Hokulani Observatory",
+      "role": "totem",
+      "order": 12,
+      "verified": false,
+      "team": [
+        "togedemaru"
+      ]
+    },
+    {
+      "id": "usum-sophocles",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Sophocles",
+      "title": "Trial Captain · Electric",
+      "role": "captain",
+      "order": 13,
+      "verified": false,
+      "team": [
+        "charjabug",
+        "togedemaru"
+      ]
+    },
+    {
+      "id": "usum-totem-mimikyu",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Totem Mimikyu",
+      "title": "Trial · Thrifty Megamart",
+      "role": "totem",
+      "order": 14,
+      "verified": false,
+      "team": [
+        "mimikyu"
+      ]
+    },
+    {
+      "id": "usum-guzma-1",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Guzma",
+      "title": "Team Skull Boss · Malie Garden",
+      "role": "villain",
+      "order": 15,
+      "verified": false,
+      "team": [
+        "golisopod",
+        "ariados",
+        "masquerain",
+        "pinsir"
+      ]
+    },
+    {
+      "id": "usum-nanu",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Nanu",
+      "title": "Kahuna · Ula'ula grand trial",
+      "role": "kahuna",
+      "order": 16,
+      "verified": true,
+      "team": [
+        "sableye",
+        "krokorok",
+        "persian-alola"
+      ]
+    },
+    {
+      "id": "usum-faba",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Faba",
+      "title": "Aether Branch Chief",
+      "role": "villain",
+      "order": 17,
+      "verified": false,
+      "team": [
+        "hypno",
+        "bruxish",
+        "claydol"
+      ]
+    },
+    {
+      "id": "usum-lusamine-story",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Lusamine",
+      "title": "Aether President · story battle",
+      "role": "villain",
+      "order": 18,
+      "verified": false,
+      "team": [
+        "clefable",
+        "lilligant",
+        "milotic",
+        "bewear",
+        "mismagius"
+      ]
+    },
+    {
+      "id": "usum-totem-ribombee",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Totem Ribombee",
+      "title": "Trial · Mina's trial",
+      "role": "totem",
+      "order": 19,
+      "verified": false,
+      "team": [
+        "ribombee"
+      ]
+    },
+    {
+      "id": "usum-mina",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Mina",
+      "title": "Trial Captain · Fairy",
+      "role": "captain",
+      "order": 20,
+      "verified": false,
+      "team": [
+        "klefki",
+        "granbull",
+        "shiinotic",
+        "wigglytuff"
+      ]
+    },
+    {
+      "id": "usum-hapu",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Hapu",
+      "title": "Kahuna · Poni grand trial, Exeggutor Island",
+      "role": "kahuna",
+      "order": 21,
+      "verified": true,
+      "team": [
+        "golurk",
+        "gastrodon",
+        "flygon",
+        "mudsdale"
+      ]
+    },
+    {
+      "id": "usum-totem-kommo-o",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Totem Kommo-o",
+      "title": "Trial · Vast Poni Canyon",
+      "role": "totem",
+      "order": 22,
+      "verified": false,
+      "team": [
+        "kommo-o"
+      ]
+    },
+    {
+      "id": "usum-gladion-story",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Gladion",
+      "title": "Rival · Vast Poni Canyon",
+      "role": "rival",
+      "order": 23,
+      "verified": false,
+      "team": [
+        "silvally",
+        "crobat",
+        "lucario",
+        "weavile"
+      ]
+    },
+    {
+      "id": "usum-ultra-necrozma",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Ultra Necrozma",
+      "title": "Boss · Megalo Tower",
+      "role": "boss",
+      "order": 24,
+      "verified": false,
+      "team": [
+        "necrozma-ultra"
+      ]
+    },
+    {
+      "id": "usum-e4-molayne",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Molayne",
+      "title": "Elite Four · Steel",
+      "role": "elite-four",
+      "order": 25,
+      "verified": true,
+      "team": [
+        "klefki",
+        "bisharp",
+        "magnezone",
+        "metagross",
+        "dugtrio-alola"
+      ]
+    },
+    {
+      "id": "usum-e4-olivia",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Olivia",
+      "title": "Elite Four · Rock",
+      "role": "elite-four",
+      "order": 26,
+      "verified": true,
+      "team": [
+        "armaldo",
+        "cradily",
+        "gigalith",
+        "probopass",
+        "lycanroc"
+      ]
+    },
+    {
+      "id": "usum-e4-acerola",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Acerola",
+      "title": "Elite Four · Ghost",
+      "role": "elite-four",
+      "order": 27,
+      "verified": true,
+      "team": [
+        "banette",
+        "drifblim",
+        "dhelmise",
+        "froslass",
+        "palossand"
+      ]
+    },
+    {
+      "id": "usum-e4-kahili",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Kahili",
+      "title": "Elite Four · Flying",
+      "role": "elite-four",
+      "order": 28,
+      "verified": true,
+      "team": [
+        "braviary",
+        "hawlucha",
+        "oricorio",
+        "mandibuzz",
+        "toucannon"
+      ]
+    },
+    {
+      "id": "usum-hau-rowlet",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Hau",
+      "title": "Champion battle — if you chose Rowlet",
+      "role": "rival",
+      "order": 29,
+      "verified": true,
+      "team": [
+        "raichu-alola",
+        "flareon",
+        "tauros",
+        "noivern",
+        "crabominable",
+        "primarina"
+      ]
+    },
+    {
+      "id": "usum-hau-litten",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Hau",
+      "title": "Champion battle — if you chose Litten",
+      "role": "rival",
+      "order": 29,
+      "verified": true,
+      "team": [
+        "raichu-alola",
+        "vaporeon",
+        "tauros",
+        "noivern",
+        "crabominable",
+        "decidueye"
+      ]
+    },
+    {
+      "id": "usum-hau-popplio",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Hau",
+      "title": "Champion battle — if you chose Popplio",
+      "role": "rival",
+      "order": 29,
+      "verified": true,
+      "team": [
+        "raichu-alola",
+        "leafeon",
+        "tauros",
+        "noivern",
+        "crabominable",
+        "incineroar"
+      ]
+    },
+    {
+      "id": "usum-ch-ryuki",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Ryuki",
+      "title": "Title challenger · Dragon",
+      "role": "challenger",
+      "order": 30,
+      "verified": true,
+      "team": [
+        "garchomp",
+        "drampa",
+        "turtonator",
+        "dragonite",
+        "kommo-o"
+      ]
+    },
+    {
+      "id": "usum-ch-plumeria",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Plumeria",
+      "title": "Title challenger · Poison",
+      "role": "challenger",
+      "order": 31,
+      "verified": true,
+      "team": [
+        "gengar",
+        "muk-alola",
+        "crobat",
+        "toxapex",
+        "salazzle"
+      ]
+    },
+    {
+      "id": "usum-ch-hapu",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Hapu",
+      "title": "Title challenger · Ground",
+      "role": "challenger",
+      "order": 32,
+      "verified": true,
+      "team": [
+        "golurk",
+        "gastrodon",
+        "krookodile",
+        "flygon",
+        "mudsdale"
+      ]
+    },
+    {
+      "id": "usum-ch-sophocles",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Sophocles",
+      "title": "Title challenger · Electric",
+      "role": "challenger",
+      "order": 33,
+      "verified": true,
+      "team": [
+        "togedemaru",
+        "magnezone",
+        "electivire",
+        "vikavolt",
+        "golem-alola"
+      ]
+    },
+    {
+      "id": "usum-ch-tristan",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Tristan",
+      "title": "Title challenger · Youngster",
+      "role": "challenger",
+      "order": 34,
+      "verified": true,
+      "team": [
+        "emolga",
+        "sharpedo",
+        "exeggutor-alola",
+        "magmortar",
+        "tauros"
+      ]
+    },
+    {
+      "id": "usum-ch-guzma",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Guzma",
+      "title": "Title challenger · Bug",
+      "role": "challenger",
+      "order": 35,
+      "verified": true,
+      "team": [
+        "golisopod",
+        "vikavolt",
+        "pinsir",
+        "masquerain",
+        "scizor"
+      ]
+    },
+    {
+      "id": "usum-ch-lusamine",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Lusamine",
+      "title": "Title challenger",
+      "role": "challenger",
+      "order": 36,
+      "verified": true,
+      "team": [
+        "clefable",
+        "lilligant",
+        "lopunny",
+        "milotic",
+        "bewear"
+      ]
+    },
+    {
+      "id": "usum-ch-kukui-rowlet",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Professor Kukui",
+      "title": "Title challenger — if you chose Rowlet",
+      "role": "challenger",
+      "order": 37,
+      "verified": true,
+      "team": [
+        "lycanroc",
+        "ninetales-alola",
+        "braviary",
+        "magnezone",
+        "snorlax",
+        "incineroar"
+      ]
+    },
+    {
+      "id": "usum-ch-kukui-litten",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Professor Kukui",
+      "title": "Title challenger — if you chose Litten",
+      "role": "challenger",
+      "order": 37,
+      "verified": true,
+      "team": [
+        "lycanroc",
+        "ninetales-alola",
+        "braviary",
+        "magnezone",
+        "snorlax",
+        "primarina"
+      ]
+    },
+    {
+      "id": "usum-ch-kukui-popplio",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Professor Kukui",
+      "title": "Title challenger — if you chose Popplio",
+      "role": "challenger",
+      "order": 37,
+      "verified": true,
+      "team": [
+        "lycanroc",
+        "ninetales-alola",
+        "braviary",
+        "magnezone",
+        "snorlax",
+        "decidueye"
+      ]
+    },
+    {
+      "id": "usum-ch-gladion-venusaur",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Gladion",
+      "title": "Title challenger — with Venusaur",
+      "role": "challenger",
+      "order": 38,
+      "verified": true,
+      "team": [
+        "crobat",
+        "zoroark",
+        "porygon-z",
+        "lucario",
+        "venusaur",
+        "silvally"
+      ]
+    },
+    {
+      "id": "usum-ch-gladion-charizard",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Gladion",
+      "title": "Title challenger — with Charizard",
+      "role": "challenger",
+      "order": 38,
+      "verified": true,
+      "team": [
+        "crobat",
+        "zoroark",
+        "porygon-z",
+        "lucario",
+        "charizard",
+        "silvally"
+      ]
+    },
+    {
+      "id": "usum-ch-gladion-blastoise",
+      "games": [
+        "ultra-sun",
+        "ultra-moon"
+      ],
+      "name": "Gladion",
+      "title": "Title challenger — with Blastoise",
+      "role": "challenger",
+      "order": 38,
+      "verified": true,
+      "team": [
+        "crobat",
+        "zoroark",
+        "porygon-z",
+        "lucario",
+        "blastoise",
+        "silvally"
+      ]
+    }
+  ]
+}
